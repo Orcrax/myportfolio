@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'playtime_with_hot_toddiesRg';
+    src: url('playtime-webfont.eot');
+    src: url('playtime-webfont.eot?#iefix') format('embedded-opentype'),
+         url('playtime-webfont.woff2') format('woff2'),
+         url('playtime-webfont.woff') format('woff'),
+         url('playtime-webfont.ttf') format('truetype'),
+         url('playtime-webfont.svg#playtime_with_hot_toddiesRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* VIEW FULL SIZE */
+
+		header
+		{
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			height: 170px;
+			background-color: rgb(40, 33, 44, 0.6);
+			justify-content: space-around;
+			align-items: top-center;
+			padding-top: 1%;
+			padding-bottom: 1%;
+
+		}
+
+		header ul
+		{
+			font-size: 1em;
+			list-style-type: none;
+			color: aliceblue;
+		}
+
+		#body_page
+		{
+			width: auto;
+			height: auto;
+		}
+
+		header li
+		{
+			text-align: top;
+			list-style-type: none;
+			clear: both;
+		}
+
+		.jauge
+		{
+			display: flex;
+			float: right;
+			align-items: center;
+		}
+
+		a
+		{
+			color: rgb(162, 135, 211);
+		}
+
+		a:hover
+		{
+			color: rgb(198, 160, 236);
+		}
+
+		#profil	{
+			width: 80%;
+			margin-left: 10%;
+		}
+		a:visited
+		{
+			color: grey
+		}
+
+		p {
+			color: aliceblue;
+		}
+
+		body
+		{
+			align-content: center;
+			width: 100%;
+			height: auto;
+			background-color: rgba(40, 33, 44, 1);
+		}
+
+		h2, h3
+		{
+			font-size: 1em;
+			margin-left: 25px;
+			text-decoration: underline;
+			font-family: Arial;
+			font-style: italic;
+			color: rgb(207, 136, 255);
+		}
+
+		header h1
+		{
+			text-align: center;
+			font-size: 1.2em;
+			font-family: 'Georgia Serif', Arial;
+		}
+
+		header h2
+		{
+			padding-left: 5px;
+		}
+
+		section
+		{
+			width: auto;
+			height: auto;
+			text-align: justify;
+			font-size: 1em;
+			padding-right: 15px;
+			background-color: rgba(40, 33, 44, 0.6);
+			padding-top: 1%;
+		}
+
+		section	h2
+		{
+			font-size: 1.5em;
+			margin-left: 105px;
+		}
+
+		#telesec
+		{
+			display: flex;
+		}
+
+		#pose
+		{
+			display: flex;
+		}
+
+		#arrière
+		{
+			display: flex;
+		}
+
+		#caisse
+		{
+			display: flex;
+		}
+
+		#logistique
+		{
+			display: flex;
+		}
+
+		#efet
+		{
+			display: flex;
+		}
+
+		#bac
+		{
+			display: flex;
+			
+		}
+		#web
+		{
+			display: flex;
+		}
+
+		.date
+		{
+			width: 10%;
+			text-decoration: underline;
+			margin-left: 150px;
+			height: 25px;
+			color:rgb(210, 182, 255)
+		}
+
+		.text
+		{
+			width: 1200px;
+			margin-left: 25px;
+			color: aliceblue;
+		}
+
+		#logo
+		{
+			width: 135px;
+			height: 135px;
+			align-self: center;
+			margin-left: 15px;
+			margin-top: 5px;
+		}
+
+		#profil p
+		{
+			margin-right: 15px;
+			padding-left: 15px;
+		}
+		section p
+		{
+			font-family: 'Times New Roman';
+		}
+		article
+		{
+			margin-right: 100px;
+			margin-left: 100px;
+		}
+		#exppro
+		{
+			margin-right: 300px;
+		}
+		#etudes
+		{
+			margin-right: 300px;
+		}
+		.title
+		{
+			font-size: 1em;
+			text-decoration: underline;
+		}
+
+/*MOBILE SIZE*/
+
+@media all and (max-width: 600px)
+{
+		header
+		{
+			display: flex;
+			flex-direction: column;
+			width: 30%;
+			height: auto;
+			justify-content: start;		
+			align-items: inherit;
+		}
+
+		header li
+		{
+			margin-right: auto;
+		}
+
+
+		#body_page
+		{
+			width: auto;
+			height: auto;
+			display: flex;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		body
+		{
+			align-content: center;
+			margin: 5px 20px 5px 5px;
+			width: auto;
+			height: auto;
+		}
+
+		h2,
+		{
+			font-size: 1em;
+			text-decoration: underline;
+			font-family: Arial;
+			font-style: italic;
+		}
+
+		.title
+		{
+			font-size: 1em;
+			text-decoration: underline;
+
+		}
+
+		header h1
+		{
+			text-align: center;
+			font-size: 1.2em;
+			font-family: 'Georgia Serif', Arial;
+		}
+
+		header div
+		{
+			text-align: left;
+		}
+
+		section
+		{
+			width: 75%;
+			height: auto;
+			text-align: justify;
+			font-size: 1em;
+			padding-right: 15px;
+		}
+
+		section	h2
+		{
+			font-size: 1.6em;
+			margin-left: 25px;
+		}
+
+		.date
+		{
+			width: 50%;
+			text-decoration: underline;
+			margin-left: 15px;
+			font-size: 0.9em;
+		}
+
+		.text
+		{
+			width: 75%;
+			margin-right: 15px;
+		}
+
+		#logo
+		{
+			width: 135px;
+			height: 135px;
+			margin: auto;
+			display: block;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+
+		#profil p
+		{
+			margin-right: 15px;
+			padding-left: 15px;
+			font-size: 0.7em;
+		}
+		section p
+		{
+			font-family: 'Times New Roman';
+		}
+		article
+		{
+			margin-right: 0px;
+			margin-left: 0px;
+		}
+		#exppro
+		{
+			margin-right: 0px;
+		}
+		#etudes
+		{
+			margin-right: 0px;
+		}
+		#infos
+		{
+			margin-right: auto;
+		}
+		.jauge
+		{
+			display: flex;
+			float: right;
+			align-items: center;
+		}
+
+}
