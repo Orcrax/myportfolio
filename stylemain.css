@@ -9,6 +9,7 @@ h1 {
 p {
     color:white
 }
+
 ul {
     color: white;
     list-style-type: disc;
@@ -31,7 +32,7 @@ a {
     color: whitesmoke;
     text-decoration: none;
 }
+
 .presentation {
-    
-    
+    justify-content: end;   
 }
