@@ -3,22 +3,29 @@
     <head>
         <meta charset="UTF-8"/>
         <title>Main Page</title>	
-        <link rel="stylesheet" href="stylemain.css"/>
+        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="mainmobile.css">
     </head>
-
     <body>
-        <nav>
-            <ul class="menu">
-                <a href="main.html"><li>HOME</li></a>
-                <a href="cv/index.html"><li>WORK</li></a>
-                <a href="about.html"><li>ABOUT</li></a>
-                <a href="contact.html"><li>CONTACT</li></a>
-            </ul>
-        </nav>
+        <header>
+            <nav>
+                <label for="drop">
+                    <img class="burger" src="burger-icon.png" alt="burgericon"/>
+                </label>
+                <input type="checkbox" id="drop">
+                <ul class="menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a class="selected" href="main.html">À propos de moi</a></li>
+                    <li><a href="cv/cv.html">CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <img class="portrait" src="portrait.jpg" alt="portrait de Matthieu Rebaté">
         <div class="presentation">
-            <h1>About Me</h1>
+            <h1>À propos de moi :</h1>
             <p>Après des études de photographie, je suis actuellement en reconversion professionnelle dans l'univers du développement web</p>
-            <h1>Mes compétences</h1>
+            <h1>Mes compétences :</h1>
                 <ul>
                     <li>Photographie évènementielle (concerts, mariages) et studio</li>
                     <li>Retouche et création (Photoshop, Lightroom)</li>

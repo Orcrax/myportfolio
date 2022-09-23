@@ -1,0 +1,125 @@
+@media all and (max-width: 600px) {
+    .menu, #drop {
+        display: none;
+    }
+    label {
+        cursor: pointer;
+    }
+    #drop:checked + .menu {
+        display: block;
+        position: absolute;
+        right: -3%; top: 5%;
+        z-index: 1;
+        width: 25%;
+        height: 90%;
+    }
+    .menu li {
+        padding-top: 15%;
+        margin-right: 2%;
+        justify-content: center;
+        position: relative;
+        top: 2%
+    }
+    .burger {
+        display: flex;
+        float: right;
+        width: 5%;
+        margin-right: -4%;
+        z-index: 1;
+    }
+    .selected {
+        text-decoration: underline;
+    }
+    .menu ul {
+        padding-top: 10%;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: auto;
+        justify-content: start;		
+        align-items: inherit;
+    }
+    header li
+    {
+        margin-right: auto;
+    }
+    #body_page
+    {
+        width: auto;
+        height: auto;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body
+    {
+        align-content: center;
+        margin: 5px 20px 5px 5px;
+        width: auto;
+        height: auto;
+    }
+    h2 {
+        font-size: 1em;
+        text-decoration: underline;
+        font-family: Arial;
+        font-style: italic;
+    }
+    .title {
+        font-size: 1em;
+        text-decoration: underline;
+    }
+    header h1 {
+        text-align: center;
+        font-size: 1.2em;
+        font-family: 'Georgia Serif', Arial;
+    }
+    header div {
+        text-align: left;
+    }
+    section	h2 {
+        font-size: 1em;
+        margin-left: 20%;
+    }
+    .date {
+        width: 20%;
+        text-decoration: underline;
+        margin-left: 15px;
+        font-size: 0.9em;
+    }
+    .text {
+        width: 75%;
+        margin-right: 15px;
+    }
+    #logo {
+        display: none;
+    }
+    #profil p {
+        margin-right: 15px;
+        padding-left: 15px;
+        font-size: 0.8em;
+    }
+    section p {
+        font-family: 'Times New Roman';
+    }
+    article {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    #exppro {
+        margin-right: 0px;
+    }
+    #etudes {
+        margin-right: 0px;
+    }
+    #infos {
+        margin-right: auto;
+    }
+    .jauge {
+        display: flex;
+        float: right;
+        align-items: center;
+    }
+}
