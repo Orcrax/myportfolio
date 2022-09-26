@@ -4,6 +4,7 @@ header {
 	width: 95%;
 	height: 5%;
 	justify-content: space-around;
+	box-shadow: 2px 6px 7px 2px rgba(47, 0, 255, 0.2);
 }
 header ul {
 	font-size: 1em;
@@ -25,6 +26,9 @@ header li {
 	align-items: center;
 }
 a {
+	text-decoration: none;
+}
+body a {
 	color: rgb(162, 135, 211);
 }
 a:hover {
@@ -34,9 +38,6 @@ a:hover {
 	width: 80%;
 	margin-left: 10%;
 	margin-bottom: 4%;
-}
-a:visited {
-	color: grey,
 }
 p {
 	color: rgb(37, 128, 202);
