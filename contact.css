@@ -1,0 +1,41 @@
+#msg {
+    width: 500px;
+    height: 150px;
+}
+
+#mail {
+    width: 500px;
+    height: 30px;
+}
+
+#name {
+    width: 500px;
+    height: 30px;
+}
+
+.coordonnees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+}
+
+.coordonnees div, .envoyer{
+    margin-top: 2%;
+}
+
+.envoyer {
+    padding-right: 0%;
+}
+
+h1 {
+    color: rgb(87, 40, 175);
+    padding-top: 2%;
+    margin-left: 44%;    
+}
+label {
+    display: none;
+}
+.selected {
+    text-decoration: underline;
+}

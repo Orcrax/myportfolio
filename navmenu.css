@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+	justify-content: flex-end;
+    list-style-type: none;
+}
+.menu li {
+    margin-left: 5%;
+}
+nav {
+	height: 20%;
+	width: 100%;
+	margin: 0% 0% 3% 3%;
+	width: 90%;
+}
+nav a {
+	color: rgba(170, 126, 212);
+	text-decoration: none;
+}
+.burger, #drop {
+    display: none;
+}
+.selected {
+	text-decoration: underline;
+}

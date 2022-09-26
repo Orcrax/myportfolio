@@ -12,9 +12,11 @@ ul {
 }
 .menu {
     display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    justify-content: flex-end;
     list-style-type: none;
+}
+.menu li {
+    margin-left: 5%;
 }
 nav {
     height: 20%;
@@ -28,15 +30,15 @@ a {
 }
 .presentation {
     float: right;
-    margin-right: 3%;
+    margin-right: 15%;
     margin-top: 10%;
-    padding-left: 3%;
+    width: 33%;
 }
 .portrait {
-    width: 45%;
-    height: 45%;
+    width: 37%;
+    height: 37%;
     float: left;
-    margin-top: 3%;
+    margin-top: 6%;
     margin-left: 5%;
 }
 .burger, #drop {

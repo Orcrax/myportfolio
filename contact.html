@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Matthieu Rebaté - Contacts</title>
+        <link rel="shortcut icon" href="cv/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="contact.css"/>
+        <link rel="stylesheet" href="navmenu.css"/>
+    </head>
+    <body>
+        <header>
+            <nav>
+			    <label for="drop">
+				    <img class="burger" src="burger-icon.png" alt="burgericon"/>
+			    </label>
+			    <input type="checkbox" id="drop">
+			    <ul class="menu">
+			        <li><a href="main.html">À propos de moi</a></li>
+			        <li><a href="cv/cv.html">CV</a></li>
+                    <li><a class="selected" href="contact.html">Contact</a></li>
+			    </ul>
+		    </nav>
+        </header>
+        <h1>Contactez-moi !</h1>
+        <div class="coordonnees">
+            <div>
+                <form class="form" action="/ma-page-de-traitement" method="post">
+                    <label for="name">Nom :   </label>
+                    <input type="text" id="name" name="user_name" placeholder="Nom et Prénom"/>
+                </div>
+            <div>
+                <label for="mail">E-mail&nbsp;: </label>
+                <input type="email" id="mail" name="user_mail" placeholder="exemple@ndd.com">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message" placeholder="Enter your message here"></textarea>
+            </div>
+            <a class="envoyer" href="mailto:pro@matthieurebate.fr">Envoyer</a>
+                </form>
+        </div>           
+    </body>
