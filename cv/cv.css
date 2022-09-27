@@ -1,43 +1,8 @@
-header {
-	display: flex;
-	flex-direction: row;
-	width: 95%;
-	height: 5%;
-	justify-content: space-around;
-	box-shadow: 2px 6px 7px 2px rgba(47, 0, 255, 0.2);
-}
-header ul {
-	font-size: 1em;
-	list-style-type: none;
-	color: rgb(37, 128, 202);
-}
-#body_page {
-	width: auto;
-	height: auto;
-}
-header li {
-	text-align: top;
-	list-style-type: none;
-	clear: both;
-}
-.jauge {
-	display: flex;
-	float: right;
-	align-items: center;
-}
-a {
-	text-decoration: none;
-}
 body a {
 	color: rgb(162, 135, 211);
 }
 a:hover {
 	color: rgb(198, 160, 236);
-}
-#profil	{
-	width: 80%;
-	margin-left: 10%;
-	margin-bottom: 4%;
 }
 p {
 	color: rgb(37, 128, 202);
@@ -88,13 +53,7 @@ section div {
 	margin-left: 1%;
 	color: rgb(37, 128, 202);
 }
-#logo {
-	width: 75%;
-	height: 60%;
-	align-self: center;
-	margin-left: 0.1%;
-	margin-top: 0.001%;
-}
+
 #profil {
 	margin-bottom: 1%;
 }
@@ -111,9 +70,4 @@ article {
 }
 #exppro, #etudes {
 	margin-right: 300px;
-}
-.title {
-	font-size: 1em;
-	text-decoration: underline;
-	color: rgb(109, 18, 189);
 }

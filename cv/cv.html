@@ -4,17 +4,22 @@
 		<meta charset="UTF-8"/>
 		<title>REBATÉ Matthieu - CV</title>
 		<link rel="icon" href="/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="cv.css"/>
-		<link rel="stylesheet" href="../navmenu.css"/>
+		<link rel="stylesheet" href="profilcv.css"/>
+		<link rel="stylesheet" href="headercv.css"/>
 		<link rel="stylesheet" href="cvmobile.css"/>
+		<link rel="stylesheet" href="../navmenu.css"/>
 	</head>
 	<body>
 		<nav>
 			<label for="drop">
-				<img class="burger" src="../burger-icon.png" alt="burgericon"/>
+				<img class="burger" src="../images/burger-icon.png" alt="burgericon"/>
 			</label>
 			<input type="checkbox" id="drop">
+			<div id="logoimg">
+				<a href="../index.html"><img id="logo" src="LogoMRmini.png"></a>
+			</div>
 			<ul class="menu">
 				<li><a href="../main.html">À propos de moi</a></li>
 				<li><a class="selected" href="cv.html">CV</a></li>
@@ -22,15 +27,29 @@
 			</ul>
 		</nav>
 		<div id="body_page">
+		<article>
+			<h2>Profil</h2>
+			<div id="profil">
+				<p>Issu d'une formation très hétéroclite passant des arts à la grande distribution, puis au secrétariat médical et juridique, je me tourne désormais vers le codage HTML et CSS.
+				Ayant suscité une intérêt très fort pour cette discipline, je cherche désormais à me perfectionner et à en explorer les différentes applications possibles.<br /><br />
+				Mai 2022 : Formation HTML5 et CSS3 sur OpenClassRoom validée.<br/>
+				Septembre 2022 : Entrée en formation à DonkeySchool.</p>
+			</div>
+		</article>
 			<header>
-				<div id="presentation">
-					<a href="../index.html"><img id="logo" src="LogoMRmini.png"></a>
-				</div>
-				<div id="infos">
-					<h2>Informations personnelles</h2>
+				<div id="comp">
+					<h2>Langages & softs :</h2>
+					<img class="logols" src="../images/html5.png">
+					<img class="logols" src="../images/CSS3.png">
+					<img class="logols" src="../images/photoshop.png">
+					<img class="logols" src="../images/lightroom.png">
+					<!--<h2>Compétences</h2>
 					<ul>
-						<li><a href="mailto:pro@matthieurebate.fr">Mail</a></li>
-					</ul>
+						<li>HTML5<div class="jauge"><img src="image/yellow.png"></div></li>
+						<li>CSS3<div class="jauge"><img src="image/yellow.png"></div></li>
+						<li>Photoshop <div class="jauge"><img src="image/lightgreen.png"></div></li>
+						<li>Lightroom <div class="jauge"><img src="image/yellow.png"></div></li>
+					</ul>-->
 				</div>
 				<div id="setre">
 					<h2>Savoir-Être</h2>
@@ -45,19 +64,11 @@
 				<div id="langue">			
 					<h2>Langues</h2>
 					<ul>
-						<li>Français<div class="jauge"><img src="image/green.png"></div></li>			
-						<li>Anglais <div class="jauge"><img src="image/yellow.png"></div></li>
+						<li>Français<div class="jauge"><img src="../images/green.png"></div></li>			
+						<li>Anglais <div class="jauge"><img src="../images/yellow.png"></div></li>
 					</ul>
 				</div>
-				<div id="comp">
-					<h2>Compétences</h2>
-					<ul>
-						<li>HTML5<div class="jauge"><img src="image/yellow.png"></div></li>
-						<li>CSS3<div class="jauge"><img src="image/yellow.png"></div></li>
-						<li>Photoshop <div class="jauge"><img src="image/lightgreen.png"></div></li>
-						<li>Lightroom <div class="jauge"><img src="image/yellow.png"></div></li>
-					</ul>
-				</div>
+				
 				<div id="hobbies">
 					<h2>Centres d'Intérêt</h2>
 					<ul>
@@ -66,17 +77,9 @@
 					</ul>
 				</div>	
 			</header>
-			<section>
-				<article>
-					<h2>Profil</h2>
-					<div id="profil">
-						<p>Issu d'une formation très hétéroclite passant des arts à la grande distribution, puis au secrétariat médical et juridique, je me tourne désormais vers le codage HTML et CSS.
-						Ayant suscité une intérêt très fort pour cette discipline, je cherche désormais à me perfectionner et à en explorer les différentes applications possibles.<br /><br />
-						Mai 2022 : Formation HTML5 et CSS3 sur OpenClassRoom validée.</p>
-					</div>
-				</article>
+			<!--<section>
 				<article id="exppro">
-					<h2>Expériences Professionnelles</h2>
+					<h2>Expériences Passées</h2>
 					<div id="telesec">
 						<p class="date">Déc 2018 - Fév 2022</p>
 						<p class="text"><span class="title">Télésecrétaire - Assistant Technique</span><br />
@@ -123,7 +126,7 @@
 						Option principale et seconde : Arts Plastiques.</p>
 					</div>
 				</article>
-			</section>
+			</section>-->
 		</div>
 	</body>
 </html>

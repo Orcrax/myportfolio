@@ -9,7 +9,7 @@
 nav {
 	height: 20%;
 	width: 100%;
-	margin: 0% 0% 3% 3%;
+	margin: 1.5% 0% 3% 3%;
 	width: 90%;
 }
 nav a {
@@ -21,4 +21,22 @@ nav a {
 }
 .selected {
 	text-decoration: underline;
+}
+#logoimg {
+	width: 73px;
+	height: 90px;
+	position: absolute;
+	top: 5px;
+}
+#logo {
+	width: 88%;
+	height: 70%;
+	align-self: center;
+	margin-left: -50%;
+	margin-top: 25%;
+}
+@media all and (max-width: 600px) {
+	#logo {
+	margin-left: 0%;
+	}
 }

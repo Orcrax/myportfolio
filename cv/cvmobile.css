@@ -1,21 +1,4 @@
 @media all and (max-width: 600px) {
-    #drop:checked + .menu {
-        right: -3%; top: 5%;
-    }
-    .menu li {
-        padding-top: 15%;
-        margin-right: 2%;
-        position: relative;
-        top: 2%
-    }
-    .burger {
-        width: 5%;
-        margin-right: -4%;
-        z-index: 1;
-    }
-    .selected {
-        text-decoration: underline;
-    }
     .menu ul {
         padding-top: 10%;
     }
@@ -79,9 +62,6 @@
         width: 80%;
         margin-right: -10%;
         padding-left: 2%;
-    }
-    #logo {
-        display: none;
     }
     #profil p {
         margin-right: 15px;
